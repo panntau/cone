@@ -1,0 +1,22 @@
+head
+  title Cone Autodoprava
+  meta(charset="UTF-8")
+  meta(name="viewport", content="width=device-width, initial-scale=1")
+  link(rel="shortcut icon", href="./assets/img/favicons/favicon.ico")
+  link(rel="stylesheet", href="assets/css/main.css")
+body
+  header.l-topMenu
+    a.l-logo
+      img(src="assets/img/cone-logo.png")
+    nav.l-menu
+      a(href="/").c-menu__link.active Úvod
+      a(href="/profil").c-menu__link Profil společnosti
+      a(href="/sluzby").c-menu__link Služby
+      a(href="/doprava-a-spedice").c-menu__link Doprava a spedice
+      a(href="/prodej-phm").c-menu__link Prodej PHM
+      a(href="/kontakty").c-menu__link Kontakty
+    div.l-search
+      a.button.button--dark(href="/kontakty/#kontaktni-formular") Kontaktní formulář
+      a.c-search__switch
+        svg.lnr.lnr-magnifier
+          use(xlink:href="#lnr-magnifier")

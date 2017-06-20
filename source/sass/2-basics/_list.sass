@@ -1,0 +1,17 @@
+ul
+  margin: 0
+li
+  list-style-type: none
+  text-align: left
+  padding-left: 55px
+  position: relative
+  &:before,
+  &:after
+    content: ''
+  &:before
+    +size(20px)
+    display: inline-block
+    border: 3px solid $aqua
+    border-radius: 50%
+    position: absolute
+    left: 0

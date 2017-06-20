@@ -1,0 +1,41 @@
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"]
+  display: inline-block
+  height: 60px
+  padding: 0 35px
+  text-align: center
+  font-size: 16px
+  font-weight: 600
+  line-height: 58px
+  letter-spacing: .1rem
+  text-transform: uppercase
+  text-decoration: none
+  white-space: nowrap
+  border-radius: 30px
+  background-color: $white
+  color: $orange
+  border: 1px solid $orange
+  cursor: pointer
+  box-sizing: border-box
+
+  &:hover,
+  &:active,
+  &:focus
+    color: $white
+    border-color: $white
+    background: $orange
+    outline: 0
+.button
+  &--dark
+    color: $white
+    border-color: $orange
+    background: $orange
+    &:hover,
+    &:focus,
+    &:active
+      background-color: $white
+      color: $orange
+      border-color: $orange
